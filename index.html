@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="2tasmell — бутик нішевої парфумерії. Аромати з характером та історією.">
+
+  <title>2tasmell — Niche Perfume Boutique</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<div class="cart-overlay" id="cartOverlay">
+  <div class="cart-panel">
+
+    <div class="cart-header">
+      <h2>Ваш кошик</h2>
+      <button id="closeCart">✕</button>
+    </div>
+
+    <div id="cartItems">
+      <p>Ваш кошик поки порожній.</p>
+    </div>
+
+    <div class="cart-footer">
+      <p>Разом: <span id="cartTotal">0 ₴</span></p>
+    </div>
+
+  </div>
+</div>
+
+<body>
+
+  <header class="header">
+    <div class="header-container">
+
+      <a href="#" class="logo">2ta<span>smell</span></a>
+
+      <nav class="nav">
+        <a href="#collection">Колекція</a>
+        <a href="#about">Про нас</a>
+        <a href="#philosophy">Філософія</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#favorites" class="header-icon" aria-label="Обране">♡</a>
+        <button class="header-action" id="openCart">
+          Відкрити кошик <span>↗</span>
+          <span id="cartCount">0</span>
+        </button>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-content">
+        <p class="eyebrow">THE ART OF PERFUMERY</p>
+
+        <h1>
+          Some scents<br>
+          stay <em>forever.</em>
+        </h1>
+
+        <p class="hero-description">
+          Нішеві аромати для тих, хто не потребує зайвих слів.
+          Знайди композицію, яка розповість твою історію.
+        </p>
+
+        <a href="#collection" class="primary-button">
+          Відкрити колекцію <span>↗</span>
+        </a>
+
+        <p class="hero-note">
+          design by 2ta · EST. 2026
+        </p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-placeholder">
+          <span>2tasmell</span>
+          <p>YOUR SIGNATURE SCENT</p>
+        </div>
+
+        <p class="image-caption">
+          THE SIGNATURE COLLECTION
+        </p>
+      </div>
+
+    </section>
+
+    <section class="collection" id="collection">
+
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE SELECTION</p>
+          <h2>Обрані аромати</h2>
+        </div>
+
+        <a href="#collection" class="text-link">
+          Уся колекція ↗
+        </a>
+      </div>
+
+      <div class="search-box">
+          <input
+              type="text"
+              id="searchInput"
+              placeholder="Пошук ароматів або брендів..."
+          >
+      </div>
+
+      <div class="product-grid" id="productGrid">
+      </div>
+
+    </section>
+
+
+    <section class="about" id="about">
+
+      <div class="about-content">
+        <p class="eyebrow">OUR PHILOSOPHY</p>
+
+        <h2>
+          Аромат — це більше,<br>
+          ніж просто запах.
+        </h2>
+
+        <p>
+          Це спогади, настрій і частина твоєї історії.
+          Ми створили 2tasmell для тих, хто шукає щось особливе.
+        </p>
+
+        <a href="#philosophy" class="text-link">
+          Дізнатися більше ↗
+        </a>
+      </div>
+
+      <div class="about-image-placeholder">
+        <span>THE ART OF SCENT</span>
+      </div>
+
+    </section>
+
+
+    <section class="philosophy" id="philosophy">
+
+      <p class="eyebrow">BEYOND THE SCENT</p>
+
+      <h2>
+        Not just a fragrance.<br>
+        <em>A signature.</em>
+      </h2>
+
+      <p>
+        2tasmell — простір для відкриття ароматів,
+        які залишають враження.
+      </p>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <a href="#" class="logo">2ta<span>smell</span></a>
+
+    <p>SCENT IS A FORM OF MEMORY.</p>
+
+    <div class="footer-links">
+      <a href="#collection">Колекція</a>
+      <a href="#about">Про нас</a>
+      <a href="#philosophy">Філософія</a>
+    </div>
+
+    <p class="copyright">
+      © 2026 2tasmell. CONCEPT BOUTIQUE. designed by 2taj
+    </p>
+
+  </footer>
+
+</body>
+</html>
